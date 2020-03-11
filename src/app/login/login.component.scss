@@ -1,0 +1,43 @@
+.login{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #ef9a9aa1, #9aa2eff2), url(/assets/img/login-bg.jpeg);
+    background-position: center;
+    position: relative;
+}
+
+.vb{
+    position: absolute;
+    img{
+        width: 12vw;
+    }
+}
+.vb-1{
+    top: 5vh;
+    left: 4vw;
+}
+.vb-2{
+    top: 5vh;
+    left: auto;
+    right: 5vw;
+    img{
+        width: 10vw;
+    }
+}
+
+.vb-3{
+    bottom: 7vh;
+    left: auto;
+    right: 2vw;
+    img{
+        width: 15vw;
+    }
+}
+
+.vb-4{
+    bottom: 5vh;
+    left: 3vw;
+   
+}
